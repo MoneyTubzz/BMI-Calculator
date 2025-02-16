@@ -27,9 +27,9 @@ if (bmi < 18.5) {
 } else if (bmi >= 18.5 && bmi < 24.9) {
     bmiImage.src = "./images/normal.jpg"; 
 } else if (bmi >= 25 && bmi < 29.9) {
-    bmiImage.src = ".images/overweight.jpg";  
+    bmiImage.src = "./images/overweight.jpg";  
 } else {
-    bmiImage.src = ".images/obese.jpg"; 
+    bmiImage.src = "./images/obese.jpg"; 
 }
 
 bmiImage.style.display = "block";
